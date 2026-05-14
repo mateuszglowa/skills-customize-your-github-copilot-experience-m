@@ -2,14 +2,14 @@
 
 ## 🎯 Objective
 
-Build a complete Hangman game in Python while practicing loops, conditionals, string handling, and user input.
+Students will build a complete Hangman game in Python while practicing loops, conditionals, string handling, and user input.
 
 ## 📝 Tasks
 
 ### 🛠️ Set Up Game Logic
 
 #### Description
-Create the core game structure, including word selection and tracking the game state.
+Create the core game structure, including random word selection and tracking the game state.
 
 #### Requirements
 Completed program should:
@@ -30,5 +30,6 @@ Completed program should:
 - Prompt the player to enter one letter at a time.
 - Update the displayed word progress after each guess.
 - Decrease remaining attempts for incorrect guesses.
+- Prevent repeated guesses from incorrectly reducing attempts.
 - End the game with a win message when the word is guessed.
 - End the game with a lose message when attempts are exhausted.
